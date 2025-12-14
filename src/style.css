@@ -1,3 +1,44 @@
 body {
   margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 24px;
+}
+
+.header__logo {
+  margin-right: 48px;
+}
+
+.header__logo-img {
+  display: block;
+}
+
+.nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav__link--active {
+  color: #2196f3;
 }
